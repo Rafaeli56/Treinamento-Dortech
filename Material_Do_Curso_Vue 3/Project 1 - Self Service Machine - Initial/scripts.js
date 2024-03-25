@@ -69,6 +69,11 @@ const SelfServiceMachine ={
         return{
             products: window.products
         }
+    },
+    methods: {
+        total: function() {
+
+        }
     }
 };
 Vue.createApp(SelfServiceMachine).mount('#app')
